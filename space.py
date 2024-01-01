@@ -5,6 +5,7 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.config import Config
 from kivy.core.window import Window
 
+# Window dimensions
 Window.size = (800, 500)
 Config.set('graphics', 'width', '800')
 Config.set('graphics', 'height', '500')
