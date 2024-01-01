@@ -1,0 +1,10 @@
+SpaceLayout:
+
+<SpaceLayout>:
+    space_width : self.width/2
+    space_height: self.height * .75
+    canvas.before:
+        Rectangle:
+            pos: self.pos
+            size: self.size
+            source: 'images/bg.jpg'
